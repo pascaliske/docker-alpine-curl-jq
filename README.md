@@ -4,6 +4,25 @@
 
 [![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/pascaliske/alpine-curl-jq/latest?style=flat-square)](https://hub.docker.com/r/pascaliske/alpine-curl-jq) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/pascaliske/alpine-curl-jq/latest?style=flat-square)](https://hub.docker.com/r/pascaliske/alpine-curl-jq) [![Docker Pulls](https://img.shields.io/docker/pulls/pascaliske/alpine-curl-jq?style=flat-square)](https://hub.docker.com/r/pascaliske/alpine-curl-jq) [![GitHub Tag](https://img.shields.io/github/v/tag/pascaliske/docker-alpine-curl-jq?style=flat-square)](https://github.com/pascaliske/docker-alpine-curl-jq) [![Build Status](https://img.shields.io/github/workflow/status/pascaliske/docker-alpine-curl-jq/Image/master?label=build&style=flat-square)](https://github.com/pascaliske/docker-alpine-curl-jq/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![GitHub Last Commit](https://img.shields.io/github/last-commit/pascaliske/docker-alpine-curl-jq?style=flat-square)](https://github.com/pascaliske/docker-alpine-curl-jq) [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg?style=flat-square)](https://github.com/Naereen/badges)
 
+## Image
+
+| Registry   | Image                                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Docker Hub | [`pascaliske/alpine-curl-jq`](https://hub.docker.com/r/pascaliske/alpine-curl-jq)                                           |
+| GitHub     | [`ghcr.io/pascaliske/alpine-curl-jq`](https://github.com/pascaliske/docker-alpine-curl-jq/pkgs/container/alpine-curl-jq) |
+
+The following platforms are available for this image:
+
+```bash
+$ docker run --rm mplatform/mquery pascaliske/alpine-curl-jq:latest
+Image: pascaliske/alpine-curl-jq:latest
+ * Manifest List: Yes
+ * Supported platforms:
+   - linux/amd64
+   - linux/arm/v7
+   - linux/arm64
+```
+
 ## Usage
 
 To use this image pull it from one of the following registries:
