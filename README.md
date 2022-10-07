@@ -35,6 +35,18 @@ docker pull ghcr.io/pascaliske/alpine-curl-jq
 docker pull pascaliske/alpine-curl-jq
 ```
 
+Then you can simply use the image like this:
+
+```bash
+# github container registry
+docker run -it --rm ghcr.io/pascaliske/alpine-curl-jq curl --version
+docker run -it --rm ghcr.io/pascaliske/alpine-curl-jq jq --version
+
+# docker hub
+docker run -it --rm pascaliske/alpine-curl-jq curl --version
+docker run -it --rm pascaliske/alpine-curl-jq jq --version
+```
+
 ## License
 
 [MIT](LICENSE.md) – © 2022 [Pascal Iske](https://pascaliske.dev)
