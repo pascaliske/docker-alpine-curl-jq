@@ -6,16 +6,16 @@
 
 ## Image
 
-| Registry   | Image                                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Docker Hub | [`pascaliske/alpine-curl-jq`](https://hub.docker.com/r/pascaliske/alpine-curl-jq)                                           |
+| Registry   | Image                                                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------ |
 | GitHub     | [`ghcr.io/pascaliske/alpine-curl-jq`](https://github.com/pascaliske/docker-alpine-curl-jq/pkgs/container/alpine-curl-jq) |
+| Docker Hub | [`pascaliske/alpine-curl-jq`](https://hub.docker.com/r/pascaliske/alpine-curl-jq)                                        |
 
 The following platforms are available for this image:
 
 ```bash
-$ docker run --rm mplatform/mquery pascaliske/alpine-curl-jq:latest
-Image: pascaliske/alpine-curl-jq:latest
+$ docker run --rm mplatform/mquery ghcr.io/pascaliske/alpine-curl-jq:latest
+Image: ghcr.io/pascaliske/alpine-curl-jq:latest
  * Manifest List: Yes
  * Supported platforms:
    - linux/amd64
@@ -28,11 +28,11 @@ Image: pascaliske/alpine-curl-jq:latest
 To use this image pull it from one of the following registries:
 
 ```bash
-# docker hub
-docker pull pascaliske/alpine-curl-jq
-
 # github container registry
 docker pull ghcr.io/pascaliske/alpine-curl-jq
+
+# docker hub
+docker pull pascaliske/alpine-curl-jq
 ```
 
 ## License
