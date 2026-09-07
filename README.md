@@ -47,6 +47,20 @@ docker run -it --rm pascaliske/alpine-curl-jq curl --version
 docker run -it --rm pascaliske/alpine-curl-jq jq --version
 ```
 
+## Verification
+
+The OCI images are **keylessly** signed using [`cosign`](https://docs.sigstore.dev/cosign/verifying/verify/) and can be can be verified:
+
+```shell
+cosign verify ghcr.io/pascaliske/alpine-curl-jq:main \
+  --certificate-identity-regexp "^https://github.com/pascaliske/docker-alpine-curl-jq.*$" \
+  --certificate-oidc-issuer https://token.actions.githubusercontent.com
+```
+
+> [!NOTE]
+> Verification succeeds only if the artifact was signed by the GitHub Actions workflow in this repository.
+> Any modification of the artifact or signing from a different identity will cause verification to fail.
+
 ## License
 
 [MIT](LICENSE.md) – © 2022 [Pascal Iske](https://pascaliske.dev)
