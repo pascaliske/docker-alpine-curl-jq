@@ -63,4 +63,4 @@ cosign verify ghcr.io/pascaliske/alpine-curl-jq:main \
 
 ## License
 
-[MIT](LICENSE.md) – © 2022 [Pascal Iske](https://pascaliske.dev)
+[MIT](LICENSE.md) – © 2026 [Pascal Iske](https://pascaliske.dev)
