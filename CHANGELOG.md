@@ -1,3 +1,13 @@
+# [0.1.0](https://github.com/pascaliske/docker-alpine-curl-jq/compare/v0.0.2...v0.1.0) (2026-09-07)
+
+
+### Features
+
+* upgrade alpine to 3.24.1 ([861b6d0](https://github.com/pascaliske/docker-alpine-curl-jq/commit/861b6d05e76154bc04bfbc9878233a2487ae7dcd))
+* sign images using cosign ([4f369a7](https://github.com/pascaliske/docker-alpine-curl-jq/commit/4f369a7c880a4b37dd39bcf6206986b3b7d16229))
+
+
+
 ## [0.0.2](https://github.com/pascaliske/docker-alpine-curl-jq/compare/v0.0.1...v0.0.2) (2022-10-07)
 
 
